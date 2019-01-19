@@ -1,0 +1,41 @@
+#header {
+    margin: 0 auto;
+    padding: 0;
+    width: 1200px;
+    position: static;
+    overflow: hidden;
+    background-color: #6f23ffff;
+}
+
+#header-img{
+    height: 60px;
+    float: left;
+}
+
+#nav-bar {
+    float: right;
+}
+
+#nav-bar a{
+    color: white;
+    text-decoration: none;
+}
+
+#content {
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+#content > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
